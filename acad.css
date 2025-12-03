@@ -1,0 +1,48 @@
+/* Hoja de estilo para Gorka's Web Page */
+
+	A { 
+		text-decoration: none;
+		font-weight: bold;
+	}
+	h1 {
+		text-align: center;
+		font-family: Times New Roman,Helvetica,Comic Sans MS;
+		font-weight: bold;
+		font-size: 25pt;
+	}
+	h3 {
+		font-family: Verdana,Arial, Helvetica;
+		font-size: 14pt;
+		font-weight: bold;
+	}
+	P, .texto {
+		font-family: Verdana,Arial, Helvetica;
+		font-size: 10pt;
+	}
+	.mini {
+		font-family: Verdana,Arial, Helvetica;
+		font-size: 8pt;
+	}
+	.barra {
+		font-family: Verdana,Arial, Helvetica;
+		font-weight: bold;
+		font-size: 9pt;
+		text-decoration: none;
+	}
+	.titulo2 {
+			font-family: Verdana, Arial, Helvetica;
+			font-size: 12pt;
+			font-weight: normal;
+			text-align: center;
+			color: white;
+			border-width: thin;
+			border: none;
+			margin:0;
+			background: blue;
+	}
+	BODY {
+		background: white;
+	}
+
+
+

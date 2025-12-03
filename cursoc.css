@@ -1,0 +1,136 @@
+	A {
+		font-family: Verdana,Comic Sans MS;
+		color: blue;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	H1 {
+			font-family: Verdana, Arial, Helvetica;
+			font-size: 18pt;
+			font-weight: bold;
+			color: black;
+			border-bottom: 2pt solid maroon;
+			padding-bottom: 10px;
+	}
+
+	H2 {
+			font-family: Arial, Comic Sans MS, Arial, Helvetica;
+			font-size: 14pt;
+			font-weight: bold;
+			color: maroon;
+
+			padding-left: 10px;
+			margin-bottom: 30px;
+			margin-top: 30px;
+			border-bottom: 1pt solid maroon;
+			border-top: 1pt solid maroon;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			background-color: #FFFFCC;
+			
+	}
+
+	H3 {
+		font-family: Verdana,Comic Sans MS, Arial, Helvetica;
+		font-size: 12pt;
+		font-weight: bold;
+		text-decoration: underline;
+		text-align: justify;
+		color: blue;
+	}
+
+	P, .texto {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+		margin-left: 10px;
+	}
+
+	.coment {
+		color: blue;
+	}
+
+	UL {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+	}
+
+	FORM {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 10pt;
+		text-align: justify;
+	}
+
+	.ejemplo {
+			border: 1pt dashed #000000;
+			color: black;
+			margin: 30px;
+			padding: 10px;
+			background-color: #FFFFCC;
+	}
+	.resultado {
+			border: 1pt solid #000000;
+			
+			margin: 10px;
+			padding: 5px;
+			background-color: #CCCCCC;
+	}	
+	.nota {
+	border: 1pt solid #000000;
+	margin: 10px;
+	padding: 10px;
+	}
+	
+	.barranavegaciontop {
+	margin-bottom: 10pt;
+	margin-left: 0pt;
+	padding: 2px;
+	font-size: 10pt;
+	}
+	.barranavegacionabajo {
+	margin-bottom: 10pt;
+	margin-left: 0pt;
+	border-top: 1pt solid #000000;
+	padding: 2px;
+	font-size: 10pt;
+	}
+
+
+	.mini {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+	}
+
+	.letraC {
+		font-family: Comic Sans MS, Arial, Helvetica;
+		font-size: 12pt;
+		color: blue;
+		font-weight: bold;
+	}
+
+	.comprobado {
+			color: blue;
+			font-size: 8pt;
+	}
+
+	.volver {
+		font-family: Verdana,Comic Sans MS;
+		font-size: 8pt;
+		font-weight: normal;
+		color: blue;
+		text-decoration: none;	
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}
+
+	BODY {
+		background: white;
+		margin-left: 30px;
+		margin-right: 20px;
+	}
+	.barranav {
+		color: marron;
+		
+	}
+
