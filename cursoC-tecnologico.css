@@ -1,0 +1,26 @@
+/* CURSO C — interfaz tecnológica compartida */
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--cc-bg:#07111f;--cc-panel:#0d1c2d;--cc-panel2:#12263b;--cc-line:rgba(148,181,211,.18);--cc-text:#eaf4ff;--cc-muted:#a0b3c7;--cc-cyan:#39d9ef;--cc-blue:#478bff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0!important;padding:104px max(5vw,24px) 56px!important;background:radial-gradient(ellipse at 80% 0%,#123a554a,transparent 38%),var(--cc-bg)!important;color:var(--cc-text)!important;font:15px/1.8 Manrope,Arial,sans-serif!important;max-width:1180px;margin-inline:auto!important}
+body:before{content:"CURSO C  /  PROGRAMACIÓN DESDE CERO";position:fixed;z-index:99;top:0;left:0;right:0;height:70px;display:flex;align-items:center;padding:0 max(5vw,24px);background:#07111fee;border-bottom:1px solid var(--cc-line);backdrop-filter:blur(16px);color:var(--cc-cyan);font:700 12px "DM Mono",monospace;letter-spacing:1.6px}
+body:after{content:"⌂  Inicio     ▤  Temario     ▧  Recursos";position:fixed;z-index:99;top:70px;left:0;right:0;height:34px;padding:0 max(5vw,24px);display:flex;align-items:center;background:#0d1c2df2;border-bottom:1px solid var(--cc-line);color:var(--cc-muted);font:11px "DM Mono",monospace}
+a,.enlace{color:var(--cc-cyan)!important;text-decoration:none!important;font-weight:600}a:hover{color:#fff!important;text-decoration:underline!important}
+h1{font-size:clamp(30px,4vw,46px)!important;line-height:1.2!important;color:#f4f9ff!important;border:0!important;padding:18px 0 20px!important;margin:22px 0!important;background:linear-gradient(90deg,#102c43,#0b1b2b)!important;border-left:4px solid var(--cc-cyan)!important;padding-left:22px!important;border-radius:0 12px 12px 0}
+h2{font-size:23px!important;color:#75e6f3!important;background:#10253a!important;border:1px solid var(--cc-line)!important;border-left:3px solid var(--cc-cyan)!important;border-radius:8px!important;padding:12px 16px!important;margin:35px 0 18px!important}
+h3{font-size:18px!important;color:#8fbaff!important;text-decoration:none!important}
+p,li,td,th,form{font-size:14px!important;color:#c5d4e3!important;line-height:1.85!important}
+ul,ol{padding-left:28px}li{margin:5px 0}
+pre,.ejemplo,pre code{display:block;overflow-x:auto;background:#06101c!important;color:#cce8fa!important;border:1px solid #24415d!important;border-radius:10px!important;padding:17px!important;font:13px/1.7 "DM Mono",monospace!important;white-space:pre!important}
+code{font-family:"DM Mono",monospace!important;color:#8de6ef!important;background:#102d42!important;padding:2px 5px;border-radius:4px}
+.resultado{background:#071a24!important;border:1px solid #36c9a5!important;border-radius:9px!important;color:#8deac4!important;padding:14px!important}
+.nota{background:#132a3e!important;border:1px solid #397c9b!important;border-radius:9px!important;padding:15px!important;color:#c7e8f5!important}
+.barranavegaciontop,.barranavegacionabajo{margin:20px 0!important;padding:13px!important;background:#10243a!important;border:1px solid var(--cc-line)!important;border-radius:8px!important}
+.barranav{display:inline-block;margin:0 8px!important;color:var(--cc-cyan)!important}
+.volver{text-align:right!important;margin:22px 0!important}
+hr{border:0;border-top:1px solid var(--cc-line);margin:30px 0}
+table{border-collapse:collapse;width:100%;overflow:auto;display:block}td,th{border:1px solid var(--cc-line);padding:9px;background:#0d2033}
+img{max-width:100%;height:auto;border-radius:8px}
+input,textarea,select{background:#0a1928!important;color:#eaf4ff!important;border:1px solid #31506a!important;border-radius:7px!important;padding:9px!important}
+input[type=submit],button{background:linear-gradient(100deg,#25bfd6,#397ff0)!important;color:#041522!important;border:0!important;border-radius:7px!important;padding:10px 16px!important;font-weight:800!important;cursor:pointer}
+a[href^="mailto:"]{color:var(--cc-cyan)!important}
+@media(max-width:650px){body{padding:92px 16px 35px!important}body:before{height:58px;font-size:10px}body:after{top:58px;height:28px;font-size:9px}h1{font-size:30px!important}h2{font-size:20px!important}p,li{font-size:13px!important}.barranav{margin:3px!important}}
